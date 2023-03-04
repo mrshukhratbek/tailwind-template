@@ -1,0 +1,19 @@
+{
+  "name": "lesson-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build ./src/styles.css -o ./build/css/styles.css",
+    "watch-css": "tailwindcss -i ./src/styles.css -o ./build/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
